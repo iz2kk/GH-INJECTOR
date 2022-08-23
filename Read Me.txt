@@ -1,0 +1,16 @@
+Compile "GH Injector Library\GH Injector Library.sln" with these steps:
+1. Open the project
+2. Click "Build" in the menubar
+3. Click "Batch Build"
+4. Tick all 4 release builds (Configuration = Release)
+5. Click "Build"
+6. Done
+
+Install AutoIt: https://www.autoitscript.com/site/autoit/downloads/
+It is Required to compile GUI.
+
+Run CompileAndMerge.bat
+
+It will compile the AutoIt files and merge all the required files into "GH Injector\".
+
+To run the GH Injector simply open "GH Injector\GH Injector.exe".
